@@ -51,6 +51,13 @@ body {
   float:center;
   font-family: 'Patrick Hand', cursive;
   text-align: center;
+  text-decoration: none;
+
+}
+
+.header .logo a:active, .header .logo a:visited, .header .logo a:link, .header .logo a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .header .navigation {
@@ -70,10 +77,15 @@ body {
   text-decoration: none;
 }
 
+.header .navigation .navActive {
+  background-color: #5380E0;
+}
+
 .header .navigation li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 .header .navigation li a:hover {
